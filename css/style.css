@@ -1,0 +1,266 @@
+html body {
+    background: url(../img/bg.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+Body {
+    width: 100%;
+    height: 100%;
+
+}
+#block {
+    background: ##f09c2d;
+    filter:alpha(opacity=60); /* IE */
+    -moz-opacity:0.6; /* Mozilla */
+    opacity: 0.6; /* CSS3 */
+    position: absolute; top: 0; left: 0; height: 100%;
+    width:100%;
+
+}
+
+#Top{
+    background-color: #f09c2d;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    margin: 0 auto;
+    position: fixed;
+    left: 0px;
+    z-index: 100;
+
+}
+#logo img{
+    width: 10%;
+    float: left;
+    margin-top: 4px;
+    margin-left: 4px;
+    z-index: 1;
+
+}
+#nav{
+    margin-left: 35%
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    font-size: 20px;
+    display: block;
+    color: #6c1403;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+
+}
+
+
+#middle{
+    height: 700px;
+}
+
+#logo_middle img{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    height: 10%;
+}
+#text_box_1 h2{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
+#text_box_2 h2{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 47%;
+}
+#second_middle {
+    height: 800px;
+    width: 100%;
+    background-color: #f09c2d;
+
+}
+#left_side{
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+#cirkel img{
+    position: absolute;
+    top: 690px;
+    left: 0px;
+    width: 100%;
+}
+/* All the amber icons*/
+#amber_first_group{
+    width: 100%;
+}
+
+.Amber img{
+    float: left;
+    padding: 5% 19% 0 5%;
+    margin: 0 auto;
+
+
+}
+
+.Amber img {
+    -webkit-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.Amber img:hover {
+    -webkit-transform:translate(0px,10px);
+    -moz-transform:translate(0px,10px);
+    -ms-transform:translate(0px,10px);
+    -o-transform:translate(0px,10px);
+    transform:translate(0px,10px);
+}
+
+#Amber_1 img{
+     margin: 0 auto;
+    padding: 5% 19% 0 19%;
+    float: left;
+
+}
+#Amber_2 img{
+    float: left;
+    padding: 5% 5% 0 19%;
+    margin: 0 auto;
+}
+#Amber_3 img{
+    float: left;
+    padding: 5% 0 0 25% ;
+
+}
+#Amber_4 img{
+    float: left;
+    padding: 5% 0 0 40%  ;
+}
+
+#Amber_5 img{
+    float: left;
+    padding: 5% 19% 0 5%;
+    margin: 0 auto;
+}
+
+#Amber_6 img{
+    margin: 0 auto;
+    padding: 5% 19% 0 19%;
+    float: left;
+
+}
+#Amber_7 img{
+    float: left;
+    padding: 5% 5% 0 19%;
+    margin: 0 auto;
+}
+
+#Amber_8 img{
+    float: left;
+    padding: 5% 0 0 25% ;
+
+}
+#Amber_9 img{
+    float: left;
+    padding: 5% 0 0 40%  ;
+}
+#Amber_10 img{
+    float: left;
+    padding: 5% 19% 0 5%;
+    margin: 0 auto;
+}
+
+#Amber_11 img{
+    margin: 0 auto;
+    padding: 5% 19% 0 19%;
+    float: left;
+
+}
+#Amber_12 img{
+    float: left;
+    padding: 5% 5% 0 19%;
+    margin: 0 auto;
+}
+#Amber_13 img{
+    float: left;
+    padding: 5% 0 0 25% ;
+
+}
+#Amber_14 img{
+    float: left;
+    padding: 5% 0 0 40%  ;
+}
+#Amber_15 img{
+    float: left;
+    padding: 5% 19% 0 5%;
+    margin: 0 auto;
+}
+
+#Amber_16 img{
+    margin: 0 auto;
+    padding: 5% 19% 0 19%;
+    float: left;
+
+}
+#Amber_17 img{
+    float: left;
+    padding: 5% 5% 0 19%;
+    margin: 0 auto;
+}
+
+/* right side with paragraph */
+#right_side{
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+#P_one{
+    width: 30%;
+    margin: 0 auto;
+}
+#P_one p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid 3px #333 ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#cirkel_under img{
+    width: 100%;
+    left: 0px;
+    top: 1490px;
+    position: absolute;
+}
+#pictures{
+    background-color: #6c1403;
+    width: 100%;
+    height: 750px;
+
+
+
+}
